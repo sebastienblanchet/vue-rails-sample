@@ -1,8 +1,13 @@
 <template>
   <div id="app">
     <v-app>
-      <p>{{ message }}</p>
-      <user/>
+      <v-container app fluid>
+        <v-card class="d-flex flex-column">
+          <v-card-text>
+            <user/>
+          </v-card-text>
+        </v-card>
+      </v-container>
     </v-app>
   </div>
 </template>
